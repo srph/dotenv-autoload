@@ -1,0 +1,21 @@
+{
+  "name": "dotenv-autoload",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "dotenv": "^1.2.0",
+    "mocha": "^2.3.4",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.2"
+  }
+}
