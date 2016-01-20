@@ -17,7 +17,7 @@ npm i dotenv dotenv-autoload --save-dev
 **Note**: `dotenv` **is** a **required** dependency.
 
 ## Usage
-```
+```js
 require('dotenv-autoload');
 ```
 That's all you need to get it running.
