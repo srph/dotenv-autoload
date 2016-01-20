@@ -1,11 +1,5 @@
 ## dotenv-autoload
-Autoload dotenv through recursive finding
-
-## Getting Started
-```
-npm i dotenv dotenv-autoload --save-dev
-```
-**Note**: `dotenv` **is** a **required** dependency.
+Autoload dotenv through recursive finding.
 
 ## Why?
 - Because I use `dotenv` a lot;
@@ -15,6 +9,12 @@ npm i dotenv dotenv-autoload --save-dev
 require('dotenv').load({ path: __dirname + '/../../.env' });
 ```
 Nothing is bad about it. It just looks dull.
+
+## Getting Started
+```
+npm i dotenv dotenv-autoload --save-dev
+```
+**Note**: `dotenv` **is** a **required** dependency.
 
 ## Usage
 ```
