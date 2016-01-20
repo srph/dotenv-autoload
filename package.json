@@ -9,6 +9,12 @@
   "scripts": {
     "test": "mocha tests"
   },
+  "keywords": [
+    "dotenv",
+    "load",
+    "automatic",
+    "config"
+  ],
   "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
   "license": "ISC",
   "devDependencies": {
