@@ -1,5 +1,5 @@
 ## dotenv-autoload [![npm version](http://img.shields.io/npm/v/dotenv-autoload.svg?style=flat-square)](https://npmjs.org/package/dotenv-autoload?style=flat-square) [![Build Status](https://img.shields.io/travis/srph/dotenv-autoload.svg?style=flat-square)](https://travis-ci.org/srph/dotenv-autoload?branch=master)
-Autoload dotenv through recursive finding.
+Autoload [`dotenv`](https://github.com/motdotla/dotenv/) through recursive finding.
 
 ## Why?
 - Because I use `dotenv` a lot;
