@@ -11,7 +11,7 @@ describe('autoload', function() {
 
     autoload();
     expect(dotenv.load.calledWith({ path: 'qwerty' })).to.be.true;
-    
+
     revert();
   });
 });
