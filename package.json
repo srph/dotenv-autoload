@@ -2,7 +2,7 @@
   "name": "dotenv-autoload",
   "version": "0.1.1",
   "description": "Autoload dotenv through recursive finding.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "tests"
   },
