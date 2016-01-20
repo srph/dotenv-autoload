@@ -3,10 +3,10 @@ Autoload dotenv through recursive finding.
 
 ## Why?
 - Because I use `dotenv` a lot;
-- And because I have 2 configs --
-- Which leads to a line similar to this:
-```js
-require('dotenv').load({ path: __dirname + '/../../.env' });
+- And because I have 2 configs.
+```diff
+- require('dotenv').load({ path: __dirname + '/../../.env' });
++ require('dotenv-autoload');
 ```
 Nothing is bad about it. It just looks dull.
 
