@@ -9,6 +9,8 @@ With and without dotenv-autoload:
 ```
 Nothing is bad about it. It just looks dull.
 
+This is only useful when running modules not located in the same directory as the `.env` file.
+
 ## Getting Started
 ```
 npm i dotenv dotenv-autoload --save-dev
