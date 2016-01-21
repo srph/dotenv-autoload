@@ -2,8 +2,7 @@
 Autoload [`dotenv`](https://github.com/motdotla/dotenv/) through recursive finding.
 
 ## Why?
-- Because I use `dotenv` a lot;
-- And because I have 2 configs.
+With and without dotenv-autoload:
 ```diff
 - require('dotenv').load({ path: __dirname + '/../../.env' });
 + require('dotenv-autoload');
